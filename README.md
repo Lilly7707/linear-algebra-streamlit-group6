@@ -3,6 +3,7 @@ import numpy as np
 from PIL import Image, ImageEnhance, ImageOps
 
 # App title
+st.image("PRESU LOGO.jpg")
 st.title("Linear Algebra Group 6")
 
 # Navigation section
