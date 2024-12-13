@@ -20,10 +20,10 @@ if menu == "Home":
 # Group Members page
 elif menu == "Group Members":
     st.write("Here are the members of our group:")
-    st.write("1. Ivana SintaUli Manurung")
-    st.write("2. Lilia Prita Irawati")
-    st.write("3. Talitha Elga Kurniawan")
-    st.write("4. Yohana Nadia Gabriella S.")
+    st.write("1. Ivana SintaUli Manurung(004202300079)")
+    st.write("2. Lilia Prita Irawati(004202300020)")
+    st.write("3. Talitha Elga Kurniawan(004202300034)")
+    st.write("4. Yohana Nadia Gabriella S.(004202300033)")
 
 # Image Transformations page
 elif menu == "Image Transformations":
