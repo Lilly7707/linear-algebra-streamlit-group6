@@ -9,7 +9,7 @@ st.title("Linear Algebra Group 6")
 
 # Navigation section
 st.sidebar.title("Navigation")
-menu = st.sidebar.radio("Select a page:", ["Home", "Group Members", "Image Transformations"])
+menu = st.sidebar.radio("Select a page:", ["Home Page", "Group Members", "Image Transformations"])
 
 # Home page
 if menu == "Home":
@@ -22,18 +22,18 @@ if menu == "Home":
 # Group Members page
 elif menu == "Group Members":
     st.write("Here are the members of our group:")
-#Group member 1:
-if st.button("1. Ivana SintaUli Manurung(004202300079)"):
-    st.image("Ivana.jpg", width=450) 
-#Group member 2:
-if st.button("2. Lilia Prita Irawati(004202300020)"):
-    st.image("Lilia.jpg", width=450)
-#Group member 3:
-if st.button("3. Talitha Elga Kurniawan(004202300034)"):
-    st.image("Talitha.jpg", width=450)
-#Group member 4:
-if st.button("4. Yohana Nadia Gabriella S.(004202300033)"):
-    st.image("Yohana.jpg", width=450)
+    #Group member 1:
+    if st.button("1. Ivana SintaUli Manurung(004202300079)"):
+        st.image("Ivana.jpg", width=450) 
+    #Group member 2:
+    if st.button("2. Lilia Prita Irawati(004202300020)"):
+        st.image("Lilia.jpg", width=450)
+    #Group member 3:
+    if st.button("3. Talitha Elga Kurniawan(004202300034)"):
+        st.image("Talitha.jpg", width=450)
+    #Group member 4:
+    if st.button("4. Yohana Nadia Gabriella S.(004202300033)"):
+        st.image("Yohana.jpg", width=450)
     
 # Image Transformations page
 elif menu == "Image Transformations":
