@@ -19,7 +19,6 @@ if menu == "Home":
 
 # Group Members page
 elif menu == "Group Members":
-    st.header("Anggota Group 6")
     st.write("Here are the members of our group:")
     st.write("1. Ivana SintaUli Manurung")
     st.write("2. Lilia Prita Irawati")
