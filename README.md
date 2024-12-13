@@ -22,8 +22,12 @@ if menu == "Home":
 # Group Members page
 elif menu == "Group Members":
     st.write("Here are the members of our group:")
-    st.write("1. Ivana SintaUli Manurung(004202300079)")
-    st.write("2. Lilia Prita Irawati(004202300020)")
+    #Group member 1:
+    st.button("1. Ivana SintaUli Manurung(004202300079)")
+    st.image("Ivana.jpg")
+
+    #Group Member 2:
+    st.button("2. 2. Lilia Prita Irawati(004202300020)")
     st.write("3. Talitha Elga Kurniawan(004202300034)")
     st.write("4. Yohana Nadia Gabriella S.(004202300033)")
 
