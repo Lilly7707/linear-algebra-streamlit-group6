@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image, ImageEnhance, ImageOps
 
 # App title
-    st.image("PRESU LOGO.jpg")
+st.image("PRESU LOGO.jpg")
 st.title("Linear Algebra Group 6")
 
 
@@ -22,6 +22,7 @@ if menu == "Home":
 # Group Members page
 elif menu == "Group Members":
     st.write("Here are the members of our group:")
+    #member 1:
     st.write("1. Ivana SintaUli Manurung(004202300079)")
     st.write("2. Lilia Prita Irawati(004202300020)")
     st.write("3. Talitha Elga Kurniawan(004202300034)")
