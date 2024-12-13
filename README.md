@@ -25,11 +25,15 @@ elif menu == "Group Members":
     #Group member 1:
     st.button("1. Ivana SintaUli Manurung(004202300079)")
     st.image("Ivana.jpg", width=450)
-
-    #Group Member 2:
-    st.button("2. 2. Lilia Prita Irawati(004202300020)")
-    st.write("3. Talitha Elga Kurniawan(004202300034)")
-    st.write("4. Yohana Nadia Gabriella S.(004202300033)")
+    #Group member 2:
+    st.button("2. Lilia Prita Irawati(004202300020)"):
+    st.image("Lilia.jpg", width=450)
+    #Group member 3:
+    st.button("3. Talitha Elga Kurniawan(004202300034)"):
+    st.image("Talitha.jpg", width=450)
+    #Group member 4:
+    st.button("4. Yohana Nadia Gabriella S.(004202300033)"):
+    st.image("Yohana.jpg", width=450)
 
 # Image Transformations page
 elif menu == "Image Transformations":
