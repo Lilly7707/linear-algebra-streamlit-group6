@@ -24,7 +24,7 @@ elif menu == "Group Members":
     st.write("Here are the members of our group:")
      #Group member 1:
     st.button("1. Ivana SintaUli Manurung(004202300079)")
-    st.image("Ivana.jpg")
+    st.image("Ivana.jpg", width=150)
     
     st.write("2. Lilia Prita Irawati(004202300020)")
     st.write("3. Talitha Elga Kurniawan(004202300034)")
